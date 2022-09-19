@@ -7,7 +7,6 @@ import { ProductService } from 'src/app/services/product.service';
 import { SnackbarService } from 'src/app/services/snackbar.service';
 import { GlobalConstants } from 'src/app/shared/global-constants';
 import { saveAs } from 'file-saver';
-import { response } from 'express';
 
 @Component({
   selector: 'app-manage-order',
